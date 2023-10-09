@@ -7,7 +7,7 @@ static fetchAndStoreExchangeData = async (req, res) => {
     // Fetch exchange names
     const exchangesResponse = await axios.get('https://rest.coinapi.io/v1/exchanges', {
       headers: {
-        'X-CoinAPI-Key': 'FDAB8705-CEAA-4A23-8A5B-6CC30B8D44D9', // Replace with your actual API key
+        'X-CoinAPI-Key': 'FDAB8705-CEAA-4A23-8A5B-6CC30B8D44D9', 
       },
     });
 

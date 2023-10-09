@@ -5,4 +5,5 @@ const route = express.Router()
 
  route.get('/fetchExchanges',ExchangeControoler.fetchAndStoreExchangeData);
  route.get('/exchangeList',ExchangeControoler.exchangeList);
+ 
 module.exports = route

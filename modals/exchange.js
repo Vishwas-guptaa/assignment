@@ -5,7 +5,6 @@ const exchangeSchema = new mongoose.Schema({
   name: String,
   iconUrl: String,
 
-  // Add more fields as needed
 });
 
 
